@@ -1,0 +1,33 @@
+body {
+  align-self: center;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.playlist-container {
+	width: 50%;
+	margin: 40px auto;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#playlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#playlist li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#playlist li:last-child {
+	border-bottom: none;
+}
+
+#playlist li span {
+	display: inline-block;
+	width: 30%;
+}
